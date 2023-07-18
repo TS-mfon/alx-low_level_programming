@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * print_alphabet_x10 - prints out the alphabet
+ * main - uses built in function
+ * Return: 0 if succesful
+ */
 void print_alphabet_x10(void)
 {
 	int i;
@@ -9,7 +14,7 @@ void print_alphabet_x10(void)
 	{
 		for (i = 97; i <= 122; i++)
 		{
-	  		_putchar(j);
+			_putchar(j);
 		}
 		_putchar('\n');
 	}
