@@ -1,22 +1,14 @@
 #include "main.h"
 
 /**
- * _abs - computes the absolute value
- * of an iterger
- *
- * @i: input number as an interger.
- *
- * Return: absolute value
+ * _abs - determine the absolute value of an integer
+ * @i: variable to determine the absolute value of an integer
+ * Return: i if succesful
  */
 
-int _abs(int);
+int _abs(int i)
 {
-	if (i >= 0)
-	{
-		return (i);
-	}
-	else
-	{
-		return (i * -2);
-	}
+if (i < 0)
+i *= -1;
+return (i);
 }
