@@ -1,5 +1,6 @@
 #include "main.h"
 
+/**
  * add - prints out the addition of two numbers
  *@x: first value
  *@y: second value
