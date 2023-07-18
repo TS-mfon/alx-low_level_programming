@@ -5,17 +5,18 @@
  * main - uses built in function
  * Return: 0 if succesful
  */
+
 void print_alphabet_x10(void)
 {
-	int i;
-	int j;
+char i;
+int x;
+x = 0;
 
-	for (j = 1; i <= 10; i++)
-	{
-		for (i = 97; i <= 122; j++)
-		{
-			_putchar(j);
-		}
-		_putchar('\n');
-	}
+while (x < 10)
+{
+for (i = 'a'; i <= 'z'; i++)
+_putchar(i);
+_putchar('\n');
+x++;
+}
 }
